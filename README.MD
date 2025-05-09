@@ -16,3 +16,6 @@
 
 <h2> Edit Patient Info </h2>
 <img src="captures/7.png">
+
+<h2> Delete Patient </h2>
+<img src="captures/8.png">
