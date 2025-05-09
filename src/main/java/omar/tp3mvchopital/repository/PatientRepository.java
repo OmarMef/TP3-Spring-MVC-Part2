@@ -15,5 +15,4 @@ public interface PatientRepository extends JpaRepository<Patient, Long> {
 
     @Query("select p from Patient p where p.name like :x")
     Page<Patient> chercher (@Param("x") String keyword, Pageable pageable);
-
 }
